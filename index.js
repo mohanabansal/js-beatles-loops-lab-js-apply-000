@@ -19,5 +19,9 @@ function johnLennonFacts(facts){
 
 function iLoveTheBeatles(num){
   let result = [];
+  for(let i = 0; i< 15-num ; i++){
+    result.push('I love the Beatles!');
+  }
+  return result;
 }
 
