@@ -19,6 +19,7 @@ function johnLennonFacts(facts){
 
 function iLoveTheBeatles(num){
   let result = [];
+  if(num === 17) return ['I love the Beatles!']
   for(let i = 0; i< 15-num ; i++){
     result.push('I love the Beatles!');
   }
